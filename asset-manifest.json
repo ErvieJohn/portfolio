@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/css/main.32db45fb.css",
-    "main.js": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/js/main.8ba4c126.js",
-    "static/js/592.f9cff2e0.chunk.js": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/js/592.f9cff2e0.chunk.js",
-    "static/media/background1280_2.png": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/media/background1280_2.90d8ac61c07fbfe25b44.png",
-    "index.html": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/index.html",
-    "main.32db45fb.css.map": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/css/main.32db45fb.css.map",
-    "main.8ba4c126.js.map": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/js/main.8ba4c126.js.map",
-    "592.f9cff2e0.chunk.js.map": "/%3Chttps://erviejohn.github.io/erviejohn_portfolio%3E/static/js/592.f9cff2e0.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.bf8b9cee.css",
+    "main.js": "/portfolio/static/js/main.02d7a4a5.js",
+    "static/js/592.f9cff2e0.chunk.js": "/portfolio/static/js/592.f9cff2e0.chunk.js",
+    "static/media/background1280_2.png": "/portfolio/static/media/background1280_2.90d8ac61c07fbfe25b44.png",
+    "index.html": "/portfolio/index.html",
+    "main.bf8b9cee.css.map": "/portfolio/static/css/main.bf8b9cee.css.map",
+    "main.02d7a4a5.js.map": "/portfolio/static/js/main.02d7a4a5.js.map",
+    "592.f9cff2e0.chunk.js.map": "/portfolio/static/js/592.f9cff2e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32db45fb.css",
-    "static/js/main.8ba4c126.js"
+    "static/css/main.bf8b9cee.css",
+    "static/js/main.02d7a4a5.js"
   ]
 }
