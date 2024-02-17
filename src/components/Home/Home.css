@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Lobster&family=Pixelify+Sans:wght@400..700&family=Bebas+Neue&display=swap');
+
+.home-image{
+    /* display: flex; */
+    height: 100vh;
+    background-image: url('../../../public/static/media/background1280_2.png');
+    /* background-color: black; */
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+.home-image-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 50%;
+    margin-left: 10%;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-items: center;
+    max-height: 70%;
+    height: 70%;
+}
+
+.home-text-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.home-text-content .home-text-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home-text-content .home-text-course{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.home-text-content .home-text-description{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-image-content{
+        max-width: 85%;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .home-image-content{
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .home-text-content .home-text-name{
+        font-size: 40px;
+    }
+
+    .home-text-content .home-text-course{
+        font-size: 23px;
+    }
+
+    .home-text-content .home-text-description{
+        font-size: 18px;
+    }
+
+    .home-image-content{
+        max-width: 85%;
+        width: 85%;
+    }
+
+}
