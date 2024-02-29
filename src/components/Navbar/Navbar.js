@@ -6,7 +6,7 @@ import { FaSearch } from "react-icons/fa";
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
-  const navToggle = () => {
+  const navToggle = (id) => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
     } else setActive("nav__menu");
@@ -15,6 +15,11 @@ function Navbar() {
     if (icon === "nav__toggler") {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
+
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -25,7 +30,14 @@ function Navbar() {
         <div className="line3"></div>
       </div>
 
-      <Link to={"/"} className="nav__brand">
+      <Link to={"#"} className="nav__brand" 
+        onClick={()=>{
+          const section = document.getElementById("page-front");
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
+      >
         <span>
             {"< ErvieJohn />"}
         </span>
@@ -33,12 +45,12 @@ function Navbar() {
       </Link>
       <ul className={active}>
         <li className="nav__item">
-          <NavLink to={"/"} className="nav__link" onClick={navToggle}>
+          <NavLink to={"#"} className="nav__link" onClick={()=>navToggle("page-front")}>
             Home
           </NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to={"#"} className="nav__link" onClick={navToggle}>
+          <NavLink to={"#"} className="nav__link" onClick={()=>navToggle("page-about")}>
             About
           </NavLink>
         </li>
