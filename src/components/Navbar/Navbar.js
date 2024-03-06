@@ -60,7 +60,7 @@ function Navbar() {
           </NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to={"#"} className="nav__link" onClick={navToggle}>
+          <NavLink to={"#"} className="nav__link" onClick={()=>navToggle("page-experience")}>
             Experience
           </NavLink>
         </li>

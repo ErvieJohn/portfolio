@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import Navbar from '../Navbar/Navbar';
 import Typewriter from 'typewriter-effect';
+import About from '../About/About';
+import Experience from '../Experience/Experience';
 
 function Home() {
   
@@ -9,9 +11,9 @@ function Home() {
 
   return (
     <div> 
-      
+      <Navbar />
       <section className='home-image' id='page-front'>
-        <Navbar />
+        
         <div className='home-image-content'>
             <div className='home-text-content'>
                 <text className='home-text-name' style={{ color: 'white' }}>Hi, I'm Ervie John</text>
@@ -46,12 +48,12 @@ function Home() {
         </div>
       </section>
 
-      <section className='page-about' id="page-about">
-        <div style={{display: "flex", height: "100vh", alignItems: "center", justifyContent: "center", flexDirection: "row"}}>
-          <text style={{color: "black"}}>
-            Hello World!
-          </text>
-        </div>
+      <section className='page-experience' id="page-experience" style={{backgroundColor: "#94a2a6", backgroundImage: "linear-gradient(180deg, #94a2a6 0%, #000000 100%)"}}>
+        <Experience />
+      </section>
+
+      <section className='page-about' id="page-about" style={{backgroundColor: "#94a2a6", backgroundImage: "linear-gradient(180deg, #94a2a6 0%, #000000 100%)"}}>
+        <About />
       </section>
       
     </div>
