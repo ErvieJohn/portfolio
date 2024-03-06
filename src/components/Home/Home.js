@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import Typewriter from 'typewriter-effect';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
+import { FaFacebook } from "react-icons/fa6";
 
 function Home() {
   
@@ -16,9 +17,9 @@ function Home() {
         
         <div className='home-image-content'>
             <div className='home-text-content'>
-                <text className='home-text-name' style={{ color: 'white' }}>Hi, I'm Ervie John</text>
+                <label className='home-text-name' style={{ color: 'white' }}>Hi, I'm Ervie John</label>
                 <div style={{display: "flex", flexDirection: "row", gap: 15, alignItems: "center"}}>
-                  <text className='home-text-course' style={{ color: 'blue' }}>I am a </text>
+                  <label className='home-text-course' style={{ color: 'blue' }}>I am a </label>
                   <div className='home-text-course' style={{ color: '#00abf0' }}>
                     <Typewriter
                       className='home-text-course' 
@@ -35,15 +36,17 @@ function Home() {
                 
                 
                 
-                <text className='home-text-description' style={{ color: 'white' }}>
+                <label className='home-text-description' style={{ color: 'white' }}>
                     Ito pogi langs! eyyyyy.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Ut congue sodales vulputate. Duis a dapibus elit. Nullam 
                     et libero nunc. Curabitur vulputate lectus arcu, nec 
                     tempor ex ullamcorper eu.
-                </text>              
+                </label>              
             
             </div>
+
+            <FaFacebook size={50} />
             
         </div>
       </section>
