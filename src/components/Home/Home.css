@@ -46,6 +46,11 @@
     font-size: 20px;
 }
 
+.home-text-name span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
 @media screen and (max-width: 768px) {
     .home-image-content{
         max-width: 85%;

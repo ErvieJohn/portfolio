@@ -4,7 +4,8 @@ import Navbar from '../Navbar/Navbar';
 import Typewriter from 'typewriter-effect';
 import About from '../About/About';
 import Experience from '../Experience/Experience';
-import { FaFacebook } from "react-icons/fa6";
+import { FaFacebook, FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from 'react-icons/fa';
 
 function Home() {
   
@@ -17,7 +18,12 @@ function Home() {
         
         <div className='home-image-content'>
             <div className='home-text-content'>
-                <label className='home-text-name' style={{ color: 'white' }}>Hi, I'm Ervie John</label>
+                <label className='home-text-name' style={{ color: 'white' }}>
+                  Hi, I'm {" "}
+                  <span>
+                    Ervie John
+                  </span>
+                </label>
                 <div style={{display: "flex", flexDirection: "row", gap: 15, alignItems: "center"}}>
                   <label className='home-text-course' style={{ color: 'blue' }}>I am a </label>
                   <div className='home-text-course' style={{ color: '#00abf0' }}>
@@ -32,9 +38,7 @@ function Home() {
                       }}
                     />
                   </div>
-                </div>
-                
-                
+                </div>                
                 
                 <label className='home-text-description' style={{ color: 'white' }}>
                     Ito pogi langs! eyyyyy.
@@ -42,11 +46,22 @@ function Home() {
                     Ut congue sodales vulputate. Duis a dapibus elit. Nullam 
                     et libero nunc. Curabitur vulputate lectus arcu, nec 
                     tempor ex ullamcorper eu.
-                </label>              
+                </label>  
+
+                <div style={{marginTop: 15, display: "flex", flexDirection: "row", gap: 20}}>
+                  <a href='https://www.facebook.com/erviejohn20' target='_blank'>
+                    <FaFacebook size={50} color='white' />
+                  </a>
+                  <a href='https://github.com/ErvieJohn' target='_blank'>
+                    <FaGithub size={50} color='white' />
+                  </a>
+                  <a href='https://www.linkedin.com/in/ervie-john-villareal-298b33153' target='_blank'>
+                    <FaLinkedin size={50} color='white' />
+                  </a>
+                </div>            
             
             </div>
-
-            <FaFacebook size={50} />
+            
             
         </div>
       </section>
