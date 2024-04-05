@@ -40,12 +40,12 @@ function Home() {
                   </div>
                 </div>                
                 
-                <label className='home-text-description' style={{ color: 'white' }}>
-                    Ito pogi langs! eyyyyy.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Ut congue sodales vulputate. Duis a dapibus elit. Nullam 
-                    et libero nunc. Curabitur vulputate lectus arcu, nec 
-                    tempor ex ullamcorper eu.
+                <label className='home-text-description' style={{ color: 'white', textAlign: 'justify' }}>
+                    A programmer with knowledge of Full-Stack Software
+                    Development and experience in both web and mobile
+                    development. Focused on using technical skills and smart
+                    problem-solving approaches to work on different projects
+                    in the tech world.
                 </label>  
 
                 <div style={{marginTop: 15, display: "flex", flexDirection: "row", gap: 20}}>
