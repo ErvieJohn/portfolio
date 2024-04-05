@@ -58,6 +58,9 @@ function Home() {
                   <a href='https://www.linkedin.com/in/ervie-john-villareal-298b33153' target='_blank'>
                     <FaLinkedin size={50} color='white' />
                   </a>
+                  {/* <a href='https://www.jobstreet.com.ph/profile/erviejohn-villareal-7dLQxc0QRz' target='_blank'>
+                    <FaJobs size={50} color='white' />
+                  </a> */}
                 </div>            
             
             </div>
