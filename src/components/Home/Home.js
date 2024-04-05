@@ -69,11 +69,11 @@ function Home() {
         </div>
       </section>
 
-      <section className='page-experience' id="page-experience" style={{backgroundColor: "#94a2a6", backgroundImage: "linear-gradient(180deg, #94a2a6 0%, #000000 100%)"}}>
+      <section className='page-experience' id="page-experience">
         <Experience />
       </section>
 
-      <section className='page-about' id="page-about" style={{backgroundColor: "#94a2a6", backgroundImage: "linear-gradient(180deg, #94a2a6 0%, #000000 100%)"}}>
+      <section className='page-about' id="page-about">
         <About />
       </section>
       

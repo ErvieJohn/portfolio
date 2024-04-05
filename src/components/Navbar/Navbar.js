@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { Link, NavLink } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
+import { FaDownload } from 'react-icons/fa6';
+import Resume from '../../files/ErvieJohnVillareal-Resume.pdf';
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -36,10 +38,9 @@ function Navbar() {
           if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
           }
-        }}
-      >
+        }}>
         <span>
-            {"< ErvieJohn />"}
+            {"<ErvieJohn />"}
         </span>
         
       </Link>
@@ -74,12 +75,19 @@ function Navbar() {
             Contact
           </NavLink>
         </li>
-        <li className="nav__item">
+        {/* <li className="nav__item">
           <NavLink to={"#"} className="nav__link" onClick={navToggle}>
             Resume
           </NavLink>
-        </li>
+        </li> */}
       </ul>
+      <a href={Resume} download="Ervie John Villareal - Resume" target='_blank'>
+        <button className="btn">
+          <FaDownload size={15} style={{marginRight: 10}} />
+          Resume / CV
+        </button>
+      </a>
+      
     </nav>
   )
 }
