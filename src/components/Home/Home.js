@@ -7,6 +7,7 @@ import { FaFacebook, FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from 'react-icons/fa';
 import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 
 function Home() {
   
@@ -84,6 +85,11 @@ function Home() {
       <section className='page-experience container' id="page-experience">
         {/* <h2 className='header-title'>WORK EXPERIENCE</h2> */}
         <Experience />
+      </section>
+
+      <section className='page-skills container' id="page-skills">
+        <h2 className='header-title'>SKILLS</h2>
+        <Skills />
       </section>
       
     </div>
