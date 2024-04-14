@@ -2,10 +2,11 @@ import React from 'react';
 import './Home.css';
 import Navbar from '../Navbar/Navbar';
 import Typewriter from 'typewriter-effect';
-import About from '../About/About';
 import Experience from '../Experience/Experience';
 import { FaFacebook, FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from 'react-icons/fa';
+import Education from '../Education/Education';
+import Projects from '../Projects/Projects';
 
 function Home() {
   
@@ -14,8 +15,9 @@ function Home() {
   return (
     <div> 
       <Navbar />
-      <section className='home-image' id='page-front'>
-        
+      <header className='home-image' id='page-front'>
+        <span className="blur"></span>
+        <span className="blur"></span>
         <div className='home-image-content'>
             <div className='home-text-content'>
                 <label className='home-text-name' style={{ color: 'white' }}>
@@ -67,14 +69,21 @@ function Home() {
             
             
         </div>
+      </header>
+
+      <section className='page-education container' id="page-education">
+        <h2 className='header-title'>EDUCATION</h2>
+        <Education />
       </section>
 
-      <section className='page-experience' id="page-experience">
+      <section className='page-projects container' id="page-projects">
+        <h2 className='header-title'>DESIGN PROJECTS</h2>
+        <Projects />
+      </section>
+
+      <section className='page-experience container' id="page-experience">
+        {/* <h2 className='header-title'>WORK EXPERIENCE</h2> */}
         <Experience />
-      </section>
-
-      <section className='page-about' id="page-about">
-        <About />
       </section>
       
     </div>

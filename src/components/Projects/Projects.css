@@ -1,0 +1,26 @@
+.projects{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.projects .card{
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.projects .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.projects .card h4{
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

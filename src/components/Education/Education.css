@@ -1,24 +1,11 @@
-.experience-header-title{
-    margin-bottom: 1rem;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-}
-
-.experience-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
-}
-
-.experience{
+.education{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.experience .card{
+.education .card{
     background-color: #27272a;
     padding: 1rem;
     border: 2px solid transparent;
@@ -26,12 +13,12 @@
     transition: all 0.3s ease;
 }
 
-.experience .card:hover{
+.education .card:hover{
     background-color: #323232;
     border-color: #fff;
 }
 
-.experience .card span{
+.education .card span{
     display: inline-block;
     background-color: #ffffff;
     padding: 2px 9px;
@@ -41,21 +28,23 @@
     border-radius: 5px;
 }
 
-.experience .card h4{
+.education .card h4{
     margin-bottom: 0.5rem;
     color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
 }
 
-.experience .card p{
+.education .card p{
     color: #ccc;
     margin-bottom: 1rem;
 }
 
-.experience .card a{
+.education .card a{
     color: #fff;
     transition: all 0.3s ease;
 }
 
-.experience .card a:hover{
+.education .card a:hover{
     color: #1e40af;
 }
