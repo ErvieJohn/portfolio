@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link, NavLink } from "react-router-dom";
-import { FaFile, FaFilePdf, FaSearch } from "react-icons/fa";
-import { FaDownload } from 'react-icons/fa6';
+import { FaFilePdf } from "react-icons/fa";
 import Resume from '../../files/ErvieJohnVillareal-Resume.pdf';
 
 function Navbar() {
@@ -66,12 +65,12 @@ function Navbar() {
           </NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to={"#"} className="nav__link" onClick={navToggle}>
+          <NavLink to={"#"} className="nav__link" onClick={()=>navToggle("page-skills")}>
             Skills
           </NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to={"#"} className="nav__link" onClick={navToggle}>
+          <NavLink to={"#"} className="nav__link" onClick={()=>navToggle("page-footer-contacts")}>
             Contact
           </NavLink>
         </li>
@@ -83,7 +82,7 @@ function Navbar() {
       </ul>
       <a href={Resume} 
       // download="Ervie John Villareal - Resume" 
-      target='_blank'>
+      target='_blank' rel="noreferrer">
         <button className="btn">
           <FaFilePdf size={15} style={{marginRight: 10}} />
           Resume / CV

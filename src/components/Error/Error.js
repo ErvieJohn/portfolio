@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Error.css';
 
 function Error() {
   return (
-    <div>Error</div>
+    <div className="not-found-container">
+      <div className="not-found-content">
+        <h1 className="not-found-heading">404 Not Found</h1>
+        <p className="not-found-text">Sorry, the page you are looking for does not exist.</p>
+      </div>
+    </div>
   )
 }
 

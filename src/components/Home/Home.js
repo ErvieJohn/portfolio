@@ -8,6 +8,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
+import Footer from '../Footer/Footer';
 
 function Home() {
   
@@ -52,13 +53,13 @@ function Home() {
                 </label>  
 
                 <div style={{marginTop: 15, display: "flex", flexDirection: "row", gap: 20}}>
-                  <a href='https://www.facebook.com/erviejohn20' target='_blank'>
+                  <a href='https://www.facebook.com/erviejohn20' target='_blank' rel="noreferrer">
                     <FaFacebook size={50} color='white' />
                   </a>
-                  <a href='https://github.com/ErvieJohn' target='_blank'>
+                  <a href='https://github.com/ErvieJohn' target='_blank' rel="noreferrer">
                     <FaGithub size={50} color='white' />
                   </a>
-                  <a href='https://www.linkedin.com/in/ervie-john-villareal-298b33153' target='_blank'>
+                  <a href='https://www.linkedin.com/in/ervie-john-villareal-298b33153' target='_blank' rel="noreferrer">
                     <FaLinkedin size={50} color='white' />
                   </a>
                   {/* <a href='https://www.jobstreet.com.ph/profile/erviejohn-villareal-7dLQxc0QRz' target='_blank'>
@@ -88,9 +89,14 @@ function Home() {
       </section>
 
       <section className='page-skills container' id="page-skills">
-        <h2 className='header-title'>SKILLS</h2>
+        {/* <h2 className='header-title'>SKILLS</h2> */}
         <Skills />
       </section>
+      
+      <div id="page-footer-contacts">
+        <Footer />
+      </div>
+
       
     </div>
   )

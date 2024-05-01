@@ -36,7 +36,7 @@
 }
 
 .home-text-content .home-text-course{
-    font-size: 40px;
+    /* font-size: 40px; */
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -73,10 +73,60 @@
     font-weight: 600;
 }
 
+@media screen and (min-width: 769px) {
+    .education{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experience-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer{
+        grid-template-columns: 400px repeat(1, 1fr);
+    }
+
+    .home-text-course{
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .home-image-content{
         max-width: 85%;
         width: 85%;
+    }
+
+    .education{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experience-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer{
+        grid-template-columns: 400px repeat(1, 1fr);
+    }
+
+    .home-text-course{
+        font-size: 40px;
     }
 }
 
@@ -103,4 +153,38 @@
         width: 85%;
     }
 
+    .education{
+        grid-template-columns: none;
+    }
+
+    .projects{
+        grid-template-columns: none;
+    }
+
+    .experience-container{
+        grid-template-columns: none;
+    }
+
+    .skills-container{
+        grid-template-columns: none;
+    }
+
+    footer{
+        grid-template-columns: none;
+    }
+
+    .home-text-course{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home-text-content .home-text-course{
+        font-size: 18px;
+    }
+
+    .home-text-content .home-text-name{
+        font-size: 30px;
+    }
+    
 }
