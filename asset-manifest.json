@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04ed45c7.css",
-    "main.js": "/portfolio/static/js/main.a5074e58.js",
+    "main.css": "/portfolio/static/css/main.4288ddaa.css",
+    "main.js": "/portfolio/static/js/main.ea0d90fe.js",
     "static/js/592.f9cff2e0.chunk.js": "/portfolio/static/js/592.f9cff2e0.chunk.js",
+    "static/media/ervie_picture.png": "/portfolio/static/media/ervie_picture.176758de365fc1f06f5b.png",
     "static/media/background1280_2.png": "/portfolio/static/media/background1280_2.90d8ac61c07fbfe25b44.png",
     "static/media/kcoop.png": "/portfolio/static/media/kcoop.f00522d94550f1e897bd.png",
-    "static/media/ErvieJohnVillareal-Resume.pdf": "/portfolio/static/media/ErvieJohnVillareal-Resume.81118e26e749ccbc02c4.pdf",
+    "static/media/ErvieJohnVillareal-Resume.pdf": "/portfolio/static/media/ErvieJohnVillareal-Resume.c89b0c31bacb345fe56e.pdf",
     "static/media/tip_logo.png": "/portfolio/static/media/tip_logo.20b941397d04389a4485.png",
     "static/media/tsh_logo.jpg": "/portfolio/static/media/tsh_logo.a454aa19188722b4bd2d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.04ed45c7.css.map": "/portfolio/static/css/main.04ed45c7.css.map",
-    "main.a5074e58.js.map": "/portfolio/static/js/main.a5074e58.js.map",
+    "main.4288ddaa.css.map": "/portfolio/static/css/main.4288ddaa.css.map",
+    "main.ea0d90fe.js.map": "/portfolio/static/js/main.ea0d90fe.js.map",
     "592.f9cff2e0.chunk.js.map": "/portfolio/static/js/592.f9cff2e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ed45c7.css",
-    "static/js/main.a5074e58.js"
+    "static/css/main.4288ddaa.css",
+    "static/js/main.ea0d90fe.js"
   ]
 }
