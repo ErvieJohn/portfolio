@@ -57,7 +57,7 @@ function Footer() {
                         <FaPhone size={30} color='white' /> +639653518716
                     </a>
                     <label className='label-location' style={{cursor: 'pointer'}}>
-                        <FaLocationPin size={30} color='white' /> Phase 8A Package 11 Block 127 Lot 20 Bagong Silang Caloocan City
+                        <FaLocationPin size={30} color='white' /> Caloocan City
                     </label>
                 </div>
                 
