@@ -37,6 +37,8 @@ function Skills() {
               </h4>
               <h4>&#x2022; React JS
               </h4>
+              <h4>&#x2022; React Native
+              </h4>
               <h4>&#x2022; Ruby on rails
               </h4>
               <h4>&#x2022; PyQt5
@@ -57,9 +59,13 @@ function Skills() {
             <div className='skills-container-content'>
               <h4>&#x2022; Python
               </h4>
+              <h4>&#x2022; Ruby
+              </h4>
+              <h4>&#x2022; PHP
+              </h4>
               <h4>&#x2022; JavaScript/HTML/CSS
               </h4>
-              <h4>&#x2022; Ruby/HAML
+              <h4>&#x2022; HAML
               </h4>
               <h4>&#x2022; C and C++
               </h4>
