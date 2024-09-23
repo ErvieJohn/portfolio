@@ -14,8 +14,10 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/portfolio" element={<Home />} />
-          <Route exact path="/portfolio/*" element={<Error />} />
+          {/* <Route exact path="/portfolio" element={<Home />} />
+          <Route exact path="/portfolio/*" element={<Error />} /> */}
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/*" element={<Error />} />
         </Routes>
       </Router>
     </div>
