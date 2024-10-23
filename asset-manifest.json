@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2920c58.css",
+    "main.css": "/static/css/main.1cc798c0.css",
     "main.js": "/static/js/main.736017ef.js",
     "static/js/592.f9cff2e0.chunk.js": "/static/js/592.f9cff2e0.chunk.js",
     "static/media/ervie_picture.png": "/static/media/ervie_picture.176758de365fc1f06f5b.png",
@@ -10,12 +10,12 @@
     "static/media/tip_logo.png": "/static/media/tip_logo.20b941397d04389a4485.png",
     "static/media/tsh_logo.jpg": "/static/media/tsh_logo.a454aa19188722b4bd2d.jpg",
     "index.html": "/index.html",
-    "main.a2920c58.css.map": "/static/css/main.a2920c58.css.map",
+    "main.1cc798c0.css.map": "/static/css/main.1cc798c0.css.map",
     "main.736017ef.js.map": "/static/js/main.736017ef.js.map",
     "592.f9cff2e0.chunk.js.map": "/static/js/592.f9cff2e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2920c58.css",
+    "static/css/main.1cc798c0.css",
     "static/js/main.736017ef.js"
   ]
 }
