@@ -69,3 +69,27 @@
     align-items: flex-start;
     text-align: start;
 }
+
+.h4-items {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skills-container-content-col2{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 10%; */
+    align-items: flex-start;
+    text-align: start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container-content-col2 {
+    padding-left: 10%;
+    justify-content: flex-start;
+    gap: 10%;
+  }
+}

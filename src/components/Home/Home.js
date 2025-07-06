@@ -12,7 +12,7 @@ import Footer from '../Footer/Footer';
 
 function Home() {
   
-  const positions = ["Computer Engineer", "Software Developer", "System Administrator"]
+  const positions = ["Computer Engineer", "Software Developer", "Junior System Engineer"]
 
   return (
     <div> 
